@@ -1,8 +1,184 @@
+
+
+/*===== COLOR USED IN WEB:
+
+ gray color--464646
+ ---252525
+=======*/
+
+
 /* ====
 Google Fonts: Opensans + Roboto + source sans pro
 ==== */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
-body{font-family: 'Open Sans', sans-serif;
+
+/* ====
+GLOBAL CSS
+==== */
+
+body{
     font-family: 'Roboto', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;}
-a{text-decoration: none;}
+    color:#252525;
+}
+h1, h2{font-family: 'Source Sans Pro', sans-serif;}
+h3, h4, h5, h6{font-family: 'Source Sans Pro', sans-serif;}
+
+a{
+    text-decoration: none;
+}
+.m-top-90{margin-top: 90px;}
+.m-bottom-200{
+    margin-bottom: 200px;
+}
+
+
+/* =============
+Top Header CSS
+=============== */
+.header-top{
+    background: url(../images/Header-bg.gif) no-repeat center center;
+    background-size: cover;
+    height: 800px;
+}
+.slider-top-arrow{
+    background: url(../images/Top-slider-arrow.gif) no-repeat top center;
+   
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    padding: 40px 0;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color:#464646;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #464646;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#fff;
+    transition: all .4s ease-in-out;
+}
+.header-top h1{
+    color: #fff;
+    font-size: 53px;
+    font-weight: 600;
+    padding: 15px 0 30px;
+    margin: 0;
+}
+.header-top span{
+    display: block;
+}
+.header-top p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 21px 80px 50px 0;
+    line-height: 41px;
+    margin: 0;
+}
+.header-top .view-more-btn{
+    text-transform: capitalize;
+    background: #464646;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #d8d8d8;
+    border-radius: 3px;
+    transition: all .4s ease-in-out;
+}
+.view-more-btn:hover{
+    background:#fff;
+    color:#464646;  
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+}
+.fa-paper-plane-o{  padding: 0 6px;}
+
+/* =============
+WHAT WE DO section CSS
+=============== */
+.what-we-do h2 {
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background: #464646;
+    color: #fff;
+    width: 20%;
+    display: block;
+    margin: 150px auto;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+.right-heading-arrow{
+    background: url(../images/heading-arrow-shape.gif) no-repeat top right;
+    background-position-x: 793px;
+    background-position-y: 174px;
+}
+.what-we-do  img{   
+    display: block;
+    margin: 0 auto;
+}
+.what-we-do h5{    font-size: 19px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}
+.what-we-do p{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 12px 0;
+}
+.what-we-do .view-more-btn2{
+    text-transform: uppercase;
+    background: #ffc038;
+    padding: 17px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+    border-radius: 3px;
+    transition: all .4s ease-in-out;
+}
+.view-more-btn2:hover{
+    background:#f3f3f3;
+    color:#464646;  
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+}
+
+/* ====================
+HOW WE WORK section CSS
+======================= */
+.how-we-work{
+    background: url(../images/how-we-wok-bg.gif) no-repeat center center;
+    background-size: cover;
+}
+.how-we-work img{
+    display: block;
+    margin: 0 auto;
+    padding: 45px 0;
+}
+.how-we-work h2{
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background: #464646;
+    color: #fff;
+    width: 20%;
+    display: block;
+    margin: 150px auto;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+.how-we-work .left-heading-arrow{
+    background: url(../images/Heading-left-arrow-shape.gif) no-repeat top right;
+    background-position-x: 460px;
+    background-position-y: 174px;
+}
