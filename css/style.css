@@ -1,21 +1,24 @@
+/* ====Author====
+Name:Ashrafi Khanam
+Email:ashrafikhanam.18@gmail.com
+Phone:017xxxxxxxxx
+Website: ashrafikhanam.com
+ */
 
-
-/*===== COLOR USED IN WEB:
-
+/*===== COLOR USED IN TEMPLATE:
  gray color--#464646
  dark gray---#252525
  Ash--#a5a5a5
 =======*/
 
-
-/* ====
+/* =================================================
 Google Fonts: Opensans + Roboto + source sans pro
-==== */
+====================================================*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
-/* ====
+/* =========
 GLOBAL CSS
-==== */
+=========== */
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -28,9 +31,11 @@ a{
     text-decoration: none;
 }
 .m-top-90{margin-top: 90px;}
-.m-bottom-150{
-    margin-bottom:150px;
+.m-bottom-120{
+    margin-bottom:120px;
 }
+.m-bottom-60{ margin-bottom:60px;}
+.m-bottom-100{margin-bottom: 100px;}
 .mt-20{
     margin-top: 20px;
 }
@@ -58,6 +63,7 @@ img{
     display:block;
     margin:0 auto;
 }
+
 /* =============
 Top Header CSS
 =============== */
@@ -130,7 +136,7 @@ Top Header CSS
 WHAT WE DO section CSS
 =============== */
 .what-we-do h2 {
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -181,13 +187,13 @@ HOW WE WORK section CSS
     padding: 45px 0;
 }
 .how-we-work h2{
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     background: #464646;
     color: #fff;
-    width: 20%;
+    width: 22%;
     display: block;
     margin: 120px auto;
     padding: 10px 30px;
@@ -195,7 +201,7 @@ HOW WE WORK section CSS
 }
 .how-we-work .left-heading-arrow{
     background: url(../images/Heading-left-arrow-shape.gif) no-repeat top right;
-    background-position-x: 457px;
+    background-position-x: 450px;
     background-position-y: 148px;
 }
 
@@ -203,7 +209,7 @@ HOW WE WORK section CSS
 OUR FEATUREs section CSS
 ======================= */
 .our-features h2{
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -238,7 +244,7 @@ OUR PACKAGES section CSS
 ========================= */
 .our-packages{padding: 0 0 60px;}
 .our-packages h2{
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -253,7 +259,7 @@ OUR PACKAGES section CSS
 .our-packages h5{
     margin: 0;
     padding: 0px 0px 50px;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 600;
     color: #a5a5a5;
 }
@@ -321,13 +327,13 @@ OUR HISTORY section CSS
     padding: 90px 0;
 }
 .our-history h2{
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     background: #464646;
     color: #fff;
-    width: 35%;
+    width: 42%;
     display: block;
     margin:  0;
     padding: 10px 30px;
@@ -360,8 +366,7 @@ OUR HISTORY section CSS
 /* ======================================
 OUR BUSINESS RELATED PROJECTS section CSS
 ========================================= */
-
-.business-projects h2{   font-size: 23px;
+.business-projects h2{   font-size: 30px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -398,10 +403,10 @@ OUR TEAM MEMBERS section CSS
 .team-members{
     background:url(../images/team-memeber-bg.gif) no-repeat center;
     background-size: cover;
-    padding: 50px 0;
+    padding: 50px 0 25px;
 }
  h2{
-     font-size: large;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -437,6 +442,7 @@ OUR TEAM MEMBERS section CSS
     text-align: center;
     margin: 0;
 }
+
 /* =========================
 UPDATES & SUPPORTS section CSS
 ============================ */
@@ -444,6 +450,7 @@ UPDATES & SUPPORTS section CSS
     padding: 28px 0 75px;
 }
 .update-support h2{
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -451,13 +458,13 @@ UPDATES & SUPPORTS section CSS
     color: #fff;
     width: 35%;
     display: block;
-    margin: 150px auto;
+    margin: 100px auto;
     padding: 10px 30px;
     border-radius: 3px;
 }
 .update-support .right-heading-arrow{  
-    background-position-x: 887px;
-    background-position-y: 183px;
+    background-position-x: 889px;
+    background-position-y: 124px;
 }
 .update-support p{
     margin: 0;
@@ -482,13 +489,13 @@ UPDATES & SUPPORTS section CSS
     font-weight: 500;
     transition: all .4s ease-in-out;
 }
+
 /* =========================
 HIRE US section CSS
 ============================ */
 .hire-us{
-    padding: 100px 0;
+    padding: 30px 0 120px;
 }
-
 .hire-us img:hover{
     opacity: .7;   
 }
@@ -514,9 +521,9 @@ HIRE US section CSS
     margin-right: 40px;
 }
 
-/* =========================
+/* =================
 FOOTER section CSS
-============================ */
+=================== */
 footer{
     background: #363636;
     padding: 50px 0 10px;
@@ -548,8 +555,88 @@ footer .fa {
     color: #fff;
   }
   
-  .fa:hover {
-      opacity: 0.7;
+.fa:hover {
+    opacity: 0.7;
   }
 footer p{color:#fff;}
-  
+
+
+/* =====================
+Media query for mobile 
+=========================*/
+@media (min-width:320px) and (max-width:576px){
+    .m-bottom-120{margin-bottom: 50px;}
+    .m-top-90{margin-top: 30px;}
+    .header-top{height: 1272px;}
+    .header-top h1{font-size: 35px;}
+    .header-top p{padding: 15px 0;}
+    .slider-top-arrow {background: initial;}
+    .right-heading-arrow{background-position-x: 206px;background-position-y: 105px;}
+    h2{width: 77%;margin: 120x auto;}
+    .left-heading-arrow{background-position-x: 18px;background-position-y: 173px;}
+    .what-we-do h2{width:66%;font-size:23px;margin:  100px auto;}
+    .what-we-do h5{font-size: 17px; padding: 20px 0;text-align: center;}
+    .what-we-do p{text-align: center;}
+    .what-we-do .view-more-btn2{width: 156px; display: block; margin: 22px auto;}
+    .how-we-work  .left-heading-arrow{        background-position-x: 21px;background-position-y: 87px;}
+    .how-we-work h2{width:73%;font-size:23px; margin:80px auto;}
+    .our-features h2{width:73%;font-size:23px; margin:100px auto;}
+    .our-features  .right-heading-arrow{ background-position-y: 115px;}
+    .features-hover{text-align: center;}
+    .our-packages h2{width:66%;font-size:20px; margin:100px auto;}
+    .our-packages .left-heading-arrow {background-position-x: 14px; background-position-y: 120px;}
+    .our-packages .basic-style {padding: 33px 0 66px;}
+    .our-packages .standard-style{padding: 33px 0 66px;border-left: none;border-right: none;}
+    .our-history h2 {font-size: 23px;width: 68%; margin: 27px auto;}
+    .our-history p {text-align: justify;}
+    .our-history .history-btn{width: 228px;display: block; margin: 0 auto;}
+    .business-projects h2 {width: 90%;margin:120px auto;}
+    .business-projects .right-heading-arrow {background-position-x: 247px;background-position-y: 186px;}
+    .update-support h2 {font-size: 23px; width: 86%;}
+    .update-support p {text-align: justify;}
+    .update-support .right-heading-arrow {background-position-x: 249px;background-position-y: 133px;}
+    .update-support .support-btn{   width: 200px;display: block;margin: 12px auto;}
+    .hire-btn-group li {font-size: 14px;padding: 0px 6px;font-weight: 500;}
+    .hire-btn-group {margin: 0;}
+    .hire-btn{font-size: 10px;padding: 6px 24px; margin-right: 4px;}
+}
+
+/* =====================
+Media query for tab 
+=========================*/
+@media (min-width:576px) and (max-width:768px){
+    .m-bottom-120{margin-bottom: 50px;}
+    .m-top-90{margin-top: 30px;}
+    .header-top{height: 1272px;}
+    .header-top h1{font-size: 35px;}
+    .header-top p{padding: 15px 0;}
+    .slider-top-arrow {background: initial;}
+    .right-heading-arrow{background-position-x: 407px;background-position-y: 112px;}
+    h2{width: 77%;margin: 120x auto;}
+    .left-heading-arrow{background-position-x: 18px;background-position-y: 173px;}
+    .what-we-do h2{width:66%;font-size:23px;margin:  100px auto;}
+    .what-we-do h5{font-size: 17px; padding: 20px 0;text-align: center;}
+    .what-we-do p{text-align: center;}
+    .what-we-do .view-more-btn2{width: 156px; display: block; margin: 22px auto;}
+    .how-we-work  .left-heading-arrow{ background-position-x: 20px;background-position-y: 124px;}
+    .how-we-work h2{width:73%;font-size:23px; margin:100px auto;}
+    .our-features h2{width:73%;font-size:23px; margin:100px auto;}
+    .our-features  .right-heading-arrow{ background-position-y: 115px;}
+    .features-hover{text-align: center;}
+    .our-packages h2{width:66%;font-size:20px; margin:100px auto;}
+    .our-packages .left-heading-arrow {    background-position-x: 41px;background-position-y: 120px;}
+    .our-packages .basic-style {padding: 33px 0 66px;}
+    .our-packages .standard-style{padding: 33px 0 66px;border-left: none;border-right: none;}
+    .our-history h2 {font-size: 23px;width: 68%; margin: 27px auto;}
+    .our-history p {text-align: justify;}
+    .our-history .history-btn{width: 228px;display: block; margin: 0 auto;}
+    .business-projects h2 {width: 90%;margin:120px auto;}
+    .business-projects .right-heading-arrow {background-position-x: 247px;background-position-y: 186px;}
+    .update-support h2 {font-size: 23px; width: 86%;}
+    .update-support p {text-align: justify;}
+    .update-support .right-heading-arrow {background-position-x: 249px;background-position-y: 133px;}
+    .update-support .support-btn{   width: 200px;display: block;margin: 12px auto;}
+    .hire-btn-group li {font-size: 14px;padding: 0px 6px;font-weight: 500;}
+    .hire-btn-group {margin: 0;}
+    .hire-btn{font-size: 10px;padding: 6px 24px; margin-right: 4px;}   
+}
